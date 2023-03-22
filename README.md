@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+<img src="./public/title.png"><hr>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="justify">Este projeto foi criado para cumprir com o desafio de teste técnico do curso de desenvolvimento front-end DevQuest. Ele consiste numa simulação de uma Pokedex que apresenta os objetos dos pokemons na página principal e uma página onde contém a Pokedex propriamente dita com as descrições do pokemon selecionado.</p>
 
-## Available Scripts
+![Project Status](https://img.shields.io/badge/status-in%20progress-yellow)
 
-In the project directory, you can run:
+<h2 align="center">🌐 Overview</h2><hr>
 
-### `npm start`
+![Projeto Pokemon Api](./public/fetch.gif)
+<p align="justify">Foi utilizada a biblioteca React para criar cada um dos componentes extraídos da <a href="https://pokeapi.co/">PokemonAPI</a>. Com um clique do usuário no botão "Carregar mais" uma nova requisição é feita à API que retorna outros 10 objetos com imagens e nomes dos pokemons. Todos os estilos dos componentes foram criados por meio de Styled Components, uma biblioteca do React que nos permite escrever código CSS dentro do JavaScript.</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Pokedex](./public/pokedex.gif)
+<p align="justify">Quando o usuário clica em uma das pokebolas, ele é transferido para uma página onde terá um display com a imagem aumentada do pokemon selecionado e, ao lado, algumas informações como uma lista com alguns movimentos, as suas habilidade mais um texto descritivo a respeito destas e os tipos aos quais aquele pokemon faz parte. Para criar este componente foi utilizada a ferramenta de Rotas do React Router DOM.</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2 align="center">✨ Temas</h2><hr>
 
-### `npm test`
+<img src="./public/light.png">
+<img src="./public/dark.png">
+<p align="justify">Para criar o Theme Toggler para alternar entre os modos claro e escuro foi utilizado o Context API que permite que criemos um contexto onde serão incluídos os componentes que receberão as propriedades passadas diretamente do elemento pai para os elementos filhos sem que utilizemos o efeito de <i>prop drilling</i>.</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Theme](./public/theme.gif)
 
-### `npm run build`
+<h2 align="center">📱 Versão Mobile</h2><hr>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Mobile](./public/mobile.gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h2 align="center">🛠️ Tecnologias Utilizadas</h2><hr>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- JavaScript
+- React
+    - Context.API
+    - Styled Components
+    - React Router DOM
+- [PokemonAPI](https://pokeapi.co/)
 
-### `npm run eject`
+<h2 align="center">🕘 Status</h2><hr>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="justify">Para a finalidade de cumprir com desafio do curso, o projeto está concluído. Porém, mantenho o status em aberto para futuras implementações de outras funcionalidades.</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+💻 Page do projeto -  [Projeto React Api Pokemon](https://markshenrik.github.io/projeto-react-api-pokemon/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🙋‍♂️ Perfil no LinkedIn - [Marks Henrik](https://www.linkedin.com/in/markshenrik/)
