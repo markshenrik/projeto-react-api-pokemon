@@ -1,4 +1,4 @@
-<img src="./public/title.png"><hr>
+<img src="./public/title.png" align="center"><hr>
 
 <p align="justify">Este projeto foi criado para cumprir com o desafio de teste técnico do curso de desenvolvimento front-end DevQuest. Ele consiste numa simulação de uma Pokedex que apresenta os objetos dos pokemons na página principal e uma página onde contém a Pokedex propriamente dita com as descrições do pokemon selecionado.</p>
 
