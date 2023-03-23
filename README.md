@@ -37,6 +37,6 @@
 
 <p align="justify">Para a finalidade de cumprir com desafio do curso, o projeto está concluído. Porém, mantenho o status em aberto para futuras implementações de outras funcionalidades.</p>
 
-💻 Page do projeto -  [Projeto React Api Pokemon](https://markshenrik.github.io/projeto-react-api-pokemon/)
+💻 Page do projeto -  [Projeto React Api Pokemon](https://projeto-react-api-pokemon.vercel.app/)
 
 🙋‍♂️ Perfil no LinkedIn - [Marks Henrik](https://www.linkedin.com/in/markshenrik/)
