@@ -1,7 +1,7 @@
 {
   "name": "projeto-react-api-pokemon",
   "version": "0.1.0",
-  "homepage": "https://markshenrik.github.io/projeto-react-api-pokemon/",
+  "homepage": "https://projeto-react-api-pokemon.vercel.app/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
