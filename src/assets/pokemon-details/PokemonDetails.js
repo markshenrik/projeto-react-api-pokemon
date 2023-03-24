@@ -73,15 +73,22 @@ const PokemonDetails = () => {
   );
 } 
 
+
 const LoadingDiv = styled.div`
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   text-align: center;
-  padding: 150px;
-  font-size: 80px;
+  margin: 5vw;
+  font-size: 5vw;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   color: #ffffff;
-`
+  @media(min-width: 768px) {
+    margin: 3rem;
+    font-size: 4rem;
+  }
+`;
+
+
 
 const List = styled.ul`
   > * {
