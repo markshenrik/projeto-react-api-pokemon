@@ -105,6 +105,10 @@ const DisplayItems = styled.div`
 const PokemonName = styled.h1`
   font-weight: 700;
   margin-bottom: 20px;
+  @media(max-width: 450px){
+    margin: 0 10%;
+    font-size: 1.5em;
+}
 `
 const NameItems = styled.h2`
   font-size: 2rem;
@@ -118,7 +122,10 @@ const AbilityDescription = styled.p`
   text-align: center;
   margin: auto;
   font-weight: 500;
-`
+  @media(max-width: 600px){
+    width: auto;
+    max-width: 100%;
+}`
 
 const PokemonCardContainer = styled.div`
   text-align: center;
@@ -130,8 +137,8 @@ const PokemonCardContainer = styled.div`
   background: linear-gradient(180deg, hsla(220, 18%, 93%, 1) 0%, hsla(0, 0%, 100%, 1) 5%, hsla(236, 14%, 21%, 1) 80%);
   @media(max-width: 1350px){
     margin: auto;
-    margin-top: 2rem;
-  }
+    margin-top: 2rem;   
+}
 `
 
 const PokemonData = styled.div`
@@ -152,6 +159,9 @@ const PanelContent = styled.div`
   > * {
   flex-basis: 350px;
   };
+  // > *:first-child {
+  //   flex-basis: 250px;
+  // };
   flex-wrap: wrap;
   @media(max-width: 1350px){
     flex-direction: column;
@@ -165,7 +175,7 @@ const StyledLink = styled(Link)`
   @media(max-width: 1350px){
     display: block;
     margin: auto;
-    flex-basis: 5%;
+    // flex-basis: 5%;
     text-align: center;
   }
   &:visited {
@@ -193,6 +203,9 @@ const PokemonImage = styled.img`
   max-width: 100%;
   width: 20rem;
   filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.8));
+  @media(max-width: 600px){
+    width: 50vw;
+  }
 `
 const ListItem = styled.li`
   list-style-type: none;

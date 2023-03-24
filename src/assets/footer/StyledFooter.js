@@ -5,7 +5,6 @@ const StyledFooter = () => {
     return(
     <Footer>
       <RefLinks href="https://www.flaticon.com/free-icons/pokemon" title="pokemon icons">Pokemon icons created by Freepik - Flaticon</RefLinks>
-      <RefLinks href="https://www.linkedin.com/in/markshenrik" target="_blanck">Marks Henrik - LinkedIn</RefLinks>
     </Footer>
     )
 }
