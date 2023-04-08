@@ -66,7 +66,6 @@ const ButtonContainer = styled.div`
   text-align: center;
 `;
 
-
 const LoadingDiv = styled.div`
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
@@ -80,8 +79,6 @@ const LoadingDiv = styled.div`
     font-size: 4rem;
   }
 `;
-
-
 
 const MainContainer = styled.main`
   font-family: 'Ubuntu', sans-serif;
@@ -108,7 +105,7 @@ const HeaderComponent = styled.h1`
 `
 const PokemonImage = styled.img`
   max-width: 100%;
-  width: 75px;
+  width: 9em;
 `
 
 const PokemonsList = styled.ul`
@@ -117,8 +114,8 @@ const PokemonsList = styled.ul`
   justify-content: center;
 `
 const PokemonDiv = styled.div`
-  height: 120px;
-  width: 120px;
+  height: 12.5em;
+  width: 12.5em;
   margin: auto;
   padding: 25px; 
   border: 2px solid black;
@@ -126,9 +123,8 @@ const PokemonDiv = styled.div`
   background-image: linear-gradient(to bottom, red 50%, black 53%, white 55%); 
 `
 const PokemonItem = styled.li`
-  margin: 10px 0 0 20px;
+  margin: 10px 35px 20px;
   text-align: center;
-
 `
 const PokemonLink = styled(Link)` 
   margin: 120px;
