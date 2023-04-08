@@ -101,7 +101,7 @@ const DisplayItems = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   background-color: black;
-  padding: 2%;
+  font-size: 1rem;
   border: 5px groove #e70319;
   @media(max-width: 1200px){        
     width: 90%;
@@ -161,17 +161,17 @@ const PanelContent = styled.div`
   border-radius: 20%;
   border: 5px groove #e70319;
   display: flex;
-  margin: 5% 5% 0 5%;
+  margin: 5% 10% 0 10%;
   font-family: 'Ubuntu', sans-serif;
+  flex-wrap: wrap;
   > * {
   flex-basis: 350px;
   };
-  // > *:first-child {
-  //   flex-basis: 250px;
-  // };
-  flex-wrap: wrap;
   @media(max-width: 1350px){
     flex-direction: column;
+  }
+  @media(max-width: 750px){
+    border-radius: 0;
   }
 `
 
@@ -179,32 +179,32 @@ const StyledLink = styled(Link)`
   display: block;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
-  @media(max-width: 1350px){
-    display: block;
-    margin: auto;
-    // flex-basis: 5%;
-    text-align: center;
-  }
-  &:visited {
-    text-decoration: none;
-    color: black;
-  }
-  width: 250px;
+  width: 15.6em;
   margin: auto;
   margin-bottom: 1em;
   background-color: #e70319;
-  padding: 15px;
+  padding: 0.9em;
   font-weight: 300;
   font-size: 25px;
   border: 2px solid black;
   border-radius: 25%;
+  flex-basis: 10%;
   &:hover{
       color: black;
       background-color: black;
       text-decoration: none;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
   };
-  flex-basis: 10%;
+   &:visited {
+    text-decoration: none;
+    color: black;
+  }
+  @media(max-width: 1350px){
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+  }
 `
 const PokemonImage = styled.img`
   max-width: 100%;
